@@ -1,0 +1,12 @@
+typedef struct MyFavoriteBands
+{
+    char *NameofBands;
+    float HeightOfMainSingerInImperial;
+    char *TopRankingSong; //For TopRankingSong Took into consideration spotify and Youtube.
+    int MonthlyListenersOnSpotify;
+    int SpotifyFollowers;
+    char *TheirGenre; //the overall genre that their music label categorizes them.
+    char Gender;
+    struct MyFavoriteBands *next_ptr;
+}
+MYFAVORITEBANDS;
